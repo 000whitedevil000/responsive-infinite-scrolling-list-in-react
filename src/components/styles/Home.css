@@ -1,0 +1,27 @@
+.home-screen {
+  padding: 5%;
+}
+
+.user {
+  display: inline-block;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-between;
+  border: 0px solid #f09d9d;
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+
+.logout-btn-container {
+  width: 100%;
+}
+
+.logout-btn-container button {
+  float: right;
+}
+
+@media only screen and (max-width: 320px) {
+  .user {
+    font-size: 0.5rem;
+  }
+}
